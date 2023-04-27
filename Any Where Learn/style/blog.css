@@ -1,0 +1,150 @@
+.blog-section {
+
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.latest-blog {
+    /* We first create a flex layout context */
+    display: flex;
+
+    /* Then we define the flow direction 
+    and if we allow the items to wrap 
+  * Remember this is the same as:
+  * flex-direction: row;
+  * flex-wrap: wrap;
+  */
+    flex-flow: row wrap;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+
+    padding: 0px;
+    padding-bottom: 15px;
+    margin: 0;
+    list-style: none;
+}
+
+.latest {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+
+}
+
+
+.blog-card {
+    width: 400px;
+    height:auto;
+
+    margin-top: 20px;
+    transition: all 0.3s ease 0s;   
+   
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    transition: transform .3s;
+    
+}
+
+@media only screen and (max-width: 380px) {
+    .blog-card {
+        width: 340px;
+        height: auto;
+    }
+}
+
+.blog-img {
+    width: 400px;
+
+    border-radius: 15px 15px 0px 0px;
+
+    margin-right: 0px;
+    height: 200px;
+
+}
+
+@media only screen and (max-width: 380px) {
+    .blog-img {
+        width: 340px;
+        height: 200px;
+    }
+}
+
+.blog-header {
+    font-size: 16px;
+    padding-left: 10px;
+   
+  
+    text-transform: capitalize;
+    color: #3c4852;
+    font-family: 'Montserrat', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    .blog-header {
+       font-size: 15px;
+    }
+}
+.blog-para {
+    font-size: 14px;
+    padding-left: 10px;
+    color: #9DA5A7;
+    text-transform: capitalize;
+    letter-spacing: 0.25;
+   margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    .blog-para {
+       font-size: 14px;
+    }
+}
+.blog-logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+   
+    border-radius: 40px;
+}
+
+.writer-name {
+    padding-left: 10px;
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 2px;
+    color: black;
+}
+
+.blog-writer {
+    display: flex;
+
+}
+
+.date-read {
+    display: flex;
+    margin-left: 62px;
+    margin-top: -28px;
+    color: #9DA5A7;
+
+}
+
+.date-read i {
+    font-size: 4px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.date {
+    font-size: 10px;
+}
+
+.read-time {
+    font-size: 10px;
+}

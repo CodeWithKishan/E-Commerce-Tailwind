@@ -1,0 +1,114 @@
+body::-webkit-scrollbar-track {
+
+	border-radius: 10px;
+	background-color: white;
+}
+
+body::-webkit-scrollbar {
+	width: 8px;
+	background-color: white;
+}
+
+body::-webkit-scrollbar-thumb {
+	border-radius: 25px;
+
+	background-color: #9b9b9b;
+}
+
+
+.nav {
+	position: fixed;
+	bottom: 0;
+	
+	width: 100%;
+	height: 55px;
+	background-color: #ffffff;
+	display: flex;
+	overflow-x: auto;
+
+
+
+}
+
+.nav__link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	justify-content: center;
+	flex-grow: 1;
+	
+	width: 100px;
+	min-width: 50px;
+	overflow: hidden;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 12px;
+	color: #9DA5A7;
+	text-decoration: none;
+	transition: background-color 0.1s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+	.nav__link {
+		font-size: 8px;
+	}
+}
+
+.nav__link:hover {
+	color: #3c4852;
+
+
+}
+
+
+.nav__link--active {
+	color: #3c4852;
+
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+
+
+
+.bottom-icon {
+	font-size: 25px;
+
+}
+
+.profile-icon {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	margin: 0px;
+	border: 1px solid #9DA5A7;
+	margin-top: 4px;
+}
+
+.clicked {
+	border: 2px solid #3c4852;
+	border-radius: 50%;
+
+	color: #3c4852;
+}
+
+.me {
+	margin-top: -5px;
+}
+.upper-bar{
+	width: 60px;
+  height: 4px;
+  align-self: center;
+  background: #3c4852;
+  border-radius: 12px;
+  position: absolute;
+  top: 0;
+ 
+}
+@media only screen and (max-width: 600px) {
+	.upper-bar {
+		width: 40px;
+	}
+}

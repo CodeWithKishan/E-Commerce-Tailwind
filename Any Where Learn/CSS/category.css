@@ -1,0 +1,140 @@
+body {
+    background-color: white;
+
+}
+
+.coaching-home {
+    padding-bottom: 60px;
+}
+
+
+
+.upsc {
+    float: left;
+    margin: 10px 10px 10px 10px;
+    padding-top: 2px;
+    font-size: 15px;
+    color: #3c4852;
+   
+}
+
+@media only screen and (max-width: 380px) {
+    .upsc {
+        font-size: 14px;
+    }
+}
+
+.right-icon {
+    float: right;
+    margin: 10px;
+    padding-top: 2px;
+    color: #3c4852;
+}
+
+.upsc-coaching {
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    display: flex;
+    overflow-y: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    white-space: nowrap;
+}
+
+@media only screen and (min-width: 600px) {
+    .upsc-coaching {
+
+        height: 220px;
+    }
+}
+
+.upsc-coaching::-webkit-scrollbar {
+    display: none;
+}
+
+.container-coaching {
+    max-width: 110px;
+    height: 130px;
+    padding-top: 0px;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: white;
+
+    margin-top: 5px;
+
+}
+
+@media only screen and (min-width: 600px) {
+    .container-coaching {
+        max-width: 150px;
+        height: 220px;
+    }
+}
+
+
+
+.coaching-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 20px;
+   
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-right: auto;
+    display: block;
+}
+
+@media only screen and (min-width: 600px) {
+    .coaching-img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.coaching-h5 {
+    font-size: 11px;
+    padding-top: 5px;
+    max-width: 150px;
+    word-wrap: break-word;
+    color: #3c4852;
+    letter-spacing: 0.25px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+@media only screen and (min-width: 600px) {
+    .coaching-h5 {
+        font-size: 12px;
+    }
+}
+.coach-rate {
+    color: #34a853;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 600px) {
+    .coach-rate {
+        font-size: 10px;
+    }
+}
+
+.coaching-header {
+    width: 100%;
+    margin-top: px;
+    height: 40px;
+
+
+
+}
+
+.coaching-header:hover {
+    background-color: #ebfbef;
+}

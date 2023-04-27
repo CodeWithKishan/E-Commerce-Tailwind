@@ -1,0 +1,122 @@
+body {
+    background-color: white;
+}
+
+.test-section {
+ 
+    padding-bottom: 60px;
+}
+
+.upsc {
+    float: left;
+    margin: 10px;
+    padding-top: 2px;
+    font-size: 16px;
+    color: #3c4852;
+}
+
+@media only screen and (max-width: 380px) {
+    .upsc {
+        font-size: 14px;
+    }
+}
+
+
+.right-icon {
+    float: right;
+    margin: 10px;
+    color: #3c4852;
+}
+
+.upsc-test {
+    width: 100%;
+    height: 230px;
+    background-color: white;
+    display: flex;
+    overflow-y: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    white-space: nowrap;
+}
+
+.upsc-test::-webkit-scrollbar {
+    display: none;
+}
+
+.container-exam {
+    width: 180px;
+    height: 200px;
+    margin-left: 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 12px;
+
+}
+
+.exam-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.examh5 {
+    font-size: 18px;
+    text-align: center;
+    color: #3c4852;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.test-para {
+    text-align: center;
+    font-size: 10px;
+    color: #4d5e6b;
+    margin-top: 2px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+}
+
+.testbtn {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    background-color: #08bd80;
+    color: white;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.testbtn:hover {
+    box-shadow: 0px 16px 32px 0px var(--color-shadow);
+    transform: translate(0px, -2px);
+    transition: transform .3s;
+    background-color: #03a06b;
+    color: white;
+}
+
+.test_link {
+    text-decoration: none;
+}
+
+.test-header {
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+}
+
+.test-header:hover {
+    background-color: #f6a79f38;
+}

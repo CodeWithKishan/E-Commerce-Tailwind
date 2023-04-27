@@ -1,0 +1,90 @@
+.profile {
+    padding-top: 80px;
+    padding-bottom: 20px;
+
+}
+
+.profile-list {
+    display: flex;
+
+    /* Then we define the flow direction 
+    and if we allow the items to wrap 
+  * Remember this is the same as:
+  * flex-direction: row;
+  * flex-wrap: wrap;
+  */
+    flex-flow: row wrap;
+
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    background-color: #e9eef2;
+    padding: 0px;
+    padding-bottom: 15px;
+    margin: 0;
+    list-style: none;
+}
+
+.card {
+
+    width: 400px;
+    height: 75px;
+
+    margin-top: 15px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    font-weight: 600;
+    color: #3c4852;
+    border-radius: 10px;
+}
+
+.icon {
+    color: #3c4852;
+    font-size: 25px;
+    padding: 20px;
+    width: 30px;
+}
+
+.icon-text {
+    padding-top: 28px;
+    font-size: 12px;
+    width: 200px;
+}
+
+.right-icon {
+    margin-left: 100px;
+    float: left;
+    font-weight: 700;
+    margin-top: 27px;
+}
+
+.social {
+
+    font-size: 30px;
+    display: block;
+
+    justify-content: center;
+    color: #3c4852;
+
+
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+
+    background-color: white;
+    padding-bottom: 10px;
+
+}
+
+.copyright {
+    font-size: 12px;
+    color: #9b9b9b;
+    font-weight: 300;
+}
+
+.fab {
+    padding-right: 10px;
+}
